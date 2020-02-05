@@ -1,0 +1,1 @@
+In this course, you will learn how to install [PowerShell](https://github.com/PowerShell/PowerShell/) and become familiar with the basic environment.
