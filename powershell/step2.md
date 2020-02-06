@@ -48,6 +48,6 @@ Get-Module
 
 To retrieve the list of commands that are exported (exposed) by a particular module, try this.
 
-```powershell
+```
 Get-Command -Module Microsoft.PowerShell.Management
 ```
