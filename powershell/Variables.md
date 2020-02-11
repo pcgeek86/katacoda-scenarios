@@ -1,0 +1,1 @@
+By default, PowerShell is dynamically typed. 

@@ -19,16 +19,12 @@
         "text": "ProcessManagement.md"
       },
       {
+        "title": "Variables in PowerShell",
+        "text": "Variables.md"
+      },
+      {
         "title": "Regular Expressions in PowerShell",
         "text": "RegularExpressions.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
-      },
-      {
-        "title": "Step 6",
-        "text": "step6.md"
       },
       {
         "title": "Step 7",
