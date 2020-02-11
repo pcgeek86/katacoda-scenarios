@@ -3,6 +3,7 @@
   "description": "",
   "difficulty": "Beginner",
   "time": "60 minutes",
+  "icon": "fa-powershell",
   "details": {
     "steps": [
       {
@@ -10,16 +11,16 @@
         "text": "step1.md"
       },
       {
-        "title": "Discovering PowerShell Commands",
-        "text": "step2.md"
+        "title": "Discovering the PowerShell Environment",
+        "text": "PowerShellEnvironment.md"
       },
       {
         "title": "Managing Processes with PowerShell",
-        "text": "step3.md"
+        "text": "ProcessManagement.md"
       },
       {
-        "title": "Step 4",
-        "text": "step4.md"
+        "title": "Regular Expressions in PowerShell",
+        "text": "RegularExpressions.md"
       },
       {
         "title": "Step 5",
