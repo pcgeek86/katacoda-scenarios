@@ -8,7 +8,7 @@
     "steps": [
       {
         "title": "Installing PowerShell on Ubuntu",
-        "text": "step1.md"
+        "text": "InstallPowerShell.md"
       },
       {
         "title": "Discovering the PowerShell Environment",
@@ -19,6 +19,10 @@
         "text": "ProcessManagement.md"
       },
       {
+        "title": "Managing the Filesystem with PowerShell",
+        "text": "FilesystemCommands.md"
+      },
+      {
         "title": "Variables in PowerShell",
         "text": "Variables.md"
       },
@@ -27,21 +31,9 @@
         "text": "RegularExpressions.md"
       },
       {
-        "title": "Step 7",
-        "text": "step7.md"
+        "title": "Data Management with PowerShell",
+        "text": "DataManagement.md"
       },
-      {
-        "title": "Step 8",
-        "text": "step8.md"
-      },
-      {
-        "title": "Step 9",
-        "text": "step9.md"
-      },
-      {
-        "title": "Step 10",
-        "text": "step10.md"
-      }
     ],
     "intro": {
       "text": "intro.md"
