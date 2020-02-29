@@ -48,3 +48,40 @@ The `New-Variable` command offers some functionality that isn't available using 
 ```
 New-Variable -Name MyInteger -Value 5
 ```
+
+### Variable Scope
+
+In PowerShell, variables are scoped at different levels. For example, a variable that is defined inside a function is "scoped" to that function. This means that the variable can only be dereferenced from inside the function. Outside the function, that variable has no meaning.
+
+```
+PS > function Testing { $a = 5 }
+PS > "What is the value of A? $a"
+```
+
+Because `$a` is undefined outside the function, you will notice that nothing is printed after the question mark.
+
+If you define a variable in the same scope as a function definition, however, you'll notice that the function can "see" that variable when it is invoked.
+
+```
+PS > function Testing { "What is the value of A? $a" }
+PS > $a = 10
+PS > Testing
+What is the value of A? 10
+```
+
+### Remove a Variable
+
+You can explicitly remove a variable definition with the `Remove-Variable` command.
+
+```
+PS > $global:FirstName = 'Trevor'
+PS > "What is your name, ${FirstName}?"
+What is your name, Trevor?
+PS > Remove-Variable -Name FirstName
+PS > "What is your name, ${FirstName}?"
+What is your name, ?
+```
+
+### References
+
+https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_scopes?view=powershell-7
